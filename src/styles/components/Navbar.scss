@@ -1,0 +1,222 @@
+// /* Navbar.css */
+// .navbar {
+//     background-color: #333; /* Cor de fundo da barra de navegação */
+//     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave na parte inferior da barra de navegação */
+//     padding: 10px 0; /* Espaçamento interno na parte superior e inferior */
+//   }
+  
+//   .navbar ul {
+//     list-style: none;
+//     padding: 0;
+//     margin: 0;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+  
+//   .navbar li {
+//     color: #454545;
+//     display: flex;
+//     padding: 5px 24px;
+//     cursor: pointer;
+//     font-size: 16px;
+//     font-family: arial;
+//     position: relative; 
+//   }
+  
+//   .navbar a {
+//     text-decoration: none;
+//     color: #fff; /* Cor do texto não clicado */
+//     font-size: 18px;
+//     transition: color 0.3s; /* Transição suave da cor do texto ao passar o mouse */
+  
+//   }  
+//   .navbar a:hover {
+//     color: #007bff; /* Cor do texto ao passar o mouse */
+//   }
+  
+//   .navbar .active {
+//     background-color: #007bff; /* Cor de fundo para a rota ativa */
+//     border-radius: 5px; /* Borda arredondada na rota ativa */
+//     padding: 5px 10px; /* Espaçamento interno na rota ativa */
+//   }
+
+//   .navbar .dropdown {
+//     cursor: pointer;
+//     position: relative;
+//   }
+
+//   .navbar .dropdown-content {
+//     display: none;
+//     position: absolute;
+//     background-color: #333;
+//     border-radius: 5px;
+//     padding: 10px 0;
+//     top: 100%;
+//     left: 0;
+//     width: 150px;
+//     z-index: 10000;
+//     max-height: 0; /* Inicialmente, o dropdown não é visível */
+  
+//     transition: max-height 0.3s ease-in-out; /* Transição suave da altura máxima */
+//   }
+  
+//   .navbar .dropdown-content.open {
+//     max-height: 200px; /* Defina a altura máxima desejada quando o dropdown estiver aberto */
+//   }
+
+
+nav {
+  display: flex;
+  border-bottom: 1px solid #F2F4F6;
+  position: relative;
+  z-index: 99;
+  .container {
+    max-width: 1160px;
+    width: 1160px;
+    margin: auto;
+    display: flex;
+  }
+}
+.logo {
+  font-size: 22px;
+  font-family: monospace;
+  color: #454545;
+  margin: auto 50px auto 0;
+  font-weight: bolder
+}
+.list {
+    display: flex;
+    flex-direction: row;
+  .item {
+    color: #454545;
+    display: flex;
+    padding: 24px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: arial;
+    position: relative; 
+    .title-item {
+      display: flex; 
+      position:relative;
+      user-select: none;
+      &:before,
+      &:after {
+          content: "";
+          position: absolute;
+          width: 0px;
+          height: 3px;
+          margin: 5px 0 0;
+          transition: all .25s cubic-bezier(0.340, 0.370, 0.055, 1.560);
+          opacity: 1;
+          background-color: #454545;
+          left: 0;
+          bottom: -8px;
+      }
+      
+    }
+    .arrow {
+      font-size: 11px;
+      margin-left: 8px;
+      margin-top: 3px;
+    }
+    &:hover {
+      .title-item {
+        &:before,
+          &:after {
+            width: 100%;
+            opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.menu {
+  position: absolute;
+  left: 50%;
+  opacity: 0;
+  height: 200px;  
+  width: 1060px;
+  position: absolute;
+  top: 74px;
+  padding: 0;
+//  background-color: red;
+  transform: perspective(1000px) translate3d(-50%, 0, 0);
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.08);
+  transition: all .3s cubic-bezier(0.340, 0.370, 0.055, 1.560);
+  overflow: hidden;
+  visibility: hidden;
+  &.open {
+    opacity: 1;
+    transform: perspective(1000px) translate3d(-50%, 0, 0);
+    height: 275px;
+    max-width: 1160px;
+    width: 1160px;
+    visibility: visible;
+    z-index: 98;
+  }
+}
+
+.content {
+  transition:.10s;
+  opacity: 1;
+  position: relative;
+  display: flex;
+  height: 100%;
+  font-family: arial;
+  .left-part, .right-part {
+    padding: 16px;
+    height: 100%;
+  }
+  .left-part {
+    background-color: #F2F4F6;
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    .list-submenu {
+      margin: 8px 32px;
+      .item {
+        color: #454545;
+        font-size: 16px;
+        margin: 8px auto;
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+        }
+        &.title {        
+          font-weight: bolder;
+          color: #0b7756;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .right-part {
+    background-color: #FFF;
+    flex: 2
+  }
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  img {
+    width: 300px;
+    margin: 16px auto
+  }
+  p {
+    margin: auto auto 16px auto;
+    text-align: center;
+    color: #454545;
+    font-family: arial; 
+    font-size: 22px
+  }
+  button {
+    background-color: white;
+    border: none;
+    color: #0b7756;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: auto auto 16px auto
+  }
+}
