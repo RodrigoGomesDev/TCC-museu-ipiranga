@@ -1,0 +1,58 @@
+
+{
+    "ticket": "Get your ticket",
+
+    "events": "Events",
+    "collection": "Collection",
+      "collections": "Our Collections",
+      "acervoOnline": "Online Collection",
+      "library": "Library",
+    "exhibitions": "Exhibitions",
+    "education": "Education",
+    "support": "Support",
+      "toSupport": "How to Support",
+      "sponsors": "Sponsors and Partners",
+    "contact": "Contact",
+
+    "slides": [
+        {
+        "info": "Explore the rich history and culture of Brazil through the incredible exhibitions and collections of the Ipiranga Museum. Discover the country's journey through artifacts and artworks that tell the story of independence and much more.",
+        "title": "Welcome to the Ipiranga Museum",
+        "img": "/bgHeader/bg-museu.jpg"
+        },
+        {
+        "info": "Step into the heart of the museum and immerse yourself in the history of Brazil's independence. Learn about the events that shaped the nation while marveling at the architectural details and relics that witnessed this crucial moment.",
+        "title": "Historical Landmark of Independence",
+        "img": "/bgHeader/bg-museu2.jpg"
+        },
+        {
+        "info": "Explore our collection of Brazilian art, spanning from colonial times to the present day. From paintings to sculptures, these works by renowned artists capture the diversity and evolution of the country's artistic expression.",
+        "title": "Treasures of Brazilian Art",
+        "img": "/bgHeader/bg-museu3.jpg"
+        },
+        {
+        "info": "Discover the magnificent architecture of the Ipiranga Museum, a monument that blends neoclassical and gothic elements. Walk through majestic halls that house not only art and history but also stunning architectural beauty.",
+        "title": "Inspiring Architecture",
+        "img": "/bgHeader/bg-museu4.jpg"
+        },
+        {
+        "info": "In addition to the permanent exhibitions, the Ipiranga Museum offers a rich cultural program, including lectures, workshops, and artistic performances. Stay updated on our events and take part in enriching activities.",
+        "title": "Unmissable Cultural Program",
+        "img": "/bgHeader/bg-museu5.png"
+        }
+    ],
+
+    "footer": "",
+    "titleAboutMuseum": "About the Museum",
+      "aboutMuseum": "Welcome to the Ipiranga Museum! Located in São Paulo, it's a cultural icon of Brazil, narrating the country's history from colonial times to the present day. Founded in 1895, it's renowned for the Monument to Independence, symbolizing Brazil's freedom in 1822. With artifacts, artworks, and exhibitions, we offer a unique journey through Brazilian history and identity. Explore our rooms, galleries, and events to connect with the roots that have shaped the nation. Join us to appreciate and learn about the achievements and challenges that define our history at the Ipiranga Museum!",
+    "titleNavigation": "Quick Navigation",
+      "security": "Security and Privacy",
+      "report": "Report",
+      "contactUs": "Contact Us",
+      "SAC": "CS",
+      "contribution": "Contribution",
+      "terms": "Terms of Use",
+    "titleSocial": "Social Media"     
+}
+
+   

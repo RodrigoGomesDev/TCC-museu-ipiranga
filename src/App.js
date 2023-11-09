@@ -1,14 +1,16 @@
 import React from 'react';
-import './App.css';
-import './globals.css'
+import './styles/App.css';
+import './styles/globals.css'
 import AppRoutes from './Routes';
 import Navbar from './components/Navbar';
-
+import Footer from './components/Footer';
+  
 function App() {
-  return (
+    return (
     <div className="App">
       <Navbar />
       <AppRoutes />
+      <Footer />
     </div>
   );
 }

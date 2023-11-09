@@ -1,0 +1,56 @@
+{
+  "navbar": "",
+      "events": "Événements",
+      "collection": "Collection",
+        "collections": "Nos Collections",
+        "acervoOnline": "Collection en Ligne",
+        "library": "Bibliothèque",
+      "exhibitions": "Expositions",
+      "education": "Éducation",
+      "support": "Soutien",
+        "toSupport": "Comment soutenir",
+        "sponsors": "Sponsors et Partenaires",
+      "contact": "Contact",
+  
+  "header": "",
+      "ticket": "Obtenez votre billet",
+      "slides": [
+          {
+            "info": "Explorez l'histoire riche et la culture du Brésil à travers les incroyables expositions et collections du Musée Ipiranga. Découvrez le parcours du pays à travers des artefacts et des œuvres d'art qui racontent l'histoire de l'indépendance et bien plus encore.",
+            "title": "Bienvenue au Musée Ipiranga",
+            "img": "/bgHeader/bg-museu.jpg"
+          },
+          {
+            "info": "Plongez au cœur du musée et plongez-vous dans l'histoire de l'indépendance du Brésil. Découvrez les événements qui ont façonné la nation tout en vous émerveillant devant les détails architecturaux et les reliques qui ont été témoins de ce moment crucial.",
+            "title": "Repère Historique de l'Indépendance",
+            "img": "/bgHeader/bg-museu2.jpg"
+          },
+          {
+            "info": "Explorez notre collection d'art brésilien, de l'époque coloniale à nos jours. Des peintures aux sculptures, ces œuvres d'artistes renommés capturent la diversité et l'évolution de l'expression artistique du pays.",
+            "title": "Trésors de l'Art Brésilien",
+            "img": "/bgHeader/bg-museu3.jpg"
+          },
+          {
+            "info": "Découvrez la magnifique architecture du Musée Ipiranga, un monument qui mélange des éléments néoclassiques et gothiques. Parcourez des salles majestueuses qui abritent non seulement de l'art et de l'histoire, mais aussi une beauté architecturale impressionnante.",
+            "title": "Architecture Inspirante",
+            "img": "/bgHeader/bg-museu4.jpg"
+          },
+          {
+            "info": "En plus des expositions permanentes, le Musée Ipiranga propose un programme culturel riche, comprenant des conférences, des ateliers et des performances artistiques. Restez informé de nos événements et participez à des activités enrichissantes.",
+            "title": "Programme Culturel à ne pas Manquer",
+            "img": "/bgHeader/bg-museu5.png"
+          }
+        ],
+  
+  "footer": "",
+      "titleAboutMuseum": "À propos du musée",
+      "aboutMuseum": "Bienvenue au Musée d'Ipiranga ! Situé à São Paulo, il est une icône culturelle du Brésil, racontant l'histoire du pays de l'époque coloniale à nos jours. Fondé en 1895, il est renommé pour le Monument à l'Indépendance, symbolisant la liberté du Brésil en 1822. Avec des artefacts, des œuvres d'art et des expositions, nous proposons un voyage unique à travers l'histoire et l'identité brésilienne. Explorez nos salles, galeries et événements pour vous connecter avec les racines qui ont façonné la nation. Rejoignez-nous pour apprécier et apprendre sur les réalisations et les défis qui définissent notre histoire au Musée d'Ipiranga !",
+      "titleNavigation": "Navigation Rapide",
+      "security": "Sécurité et Confidentialité",
+      "report": "Signaler",
+      "contactUs": "Contactez-nous",
+      "SAC": "Service Client",
+      "contribution": "Contribution",
+      "terms": "Conditions d'utilisation",
+      "titleSocial": "Réseaux Sociaux"
+}

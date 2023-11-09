@@ -1,11 +1,11 @@
 import React from "react";
 
-function AboutMuseum() {
+function Educational() {
     return (
         <div>
-            teste2
+            Educacional
         </div>
     )
 }
 
-export default AboutMuseum;
+export default Educational;

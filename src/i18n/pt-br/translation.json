@@ -1,0 +1,56 @@
+{
+  "navbar": "",
+      "events": "Eventos",
+      "collection": "Acervo",
+        "collections": "Nossas Coleções",
+        "acervoOnline": "Acervo Online",
+        "library": "Biblioteca",
+      "exhibitions": "Exposições",
+      "education": "Educativo",
+      "support": "Apoio",
+        "toSupport": "Como apoiar",
+        "sponsors": "Patrocinadores e Parceiros",
+      "contact": "Contato",
+  
+  "header": "",
+      "ticket": "Adquira seu ingresso",
+      "slides": [
+          {
+            "info": "Explore a rica história e cultura do Brasil através das incríveis exposições e acervos do Museu do Ipiranga. Descubra a trajetória do país por meio de artefatos e obras de arte que contam a história da independência e muito mais.",
+            "title": "Bem-vindo ao Museu do Ipiranga",
+            "img": "/bgHeader/bg-museu.jpg"
+          },
+          {
+            "info": "Entre no coração do museu e mergulhe na história da independência do Brasil. Conheça os eventos que moldaram a nação enquanto se encanta com os detalhes arquitetônicos e as relíquias que testemunharam esse momento crucial.",
+            "title": "Marco Histórico da Independência",
+            "img": "/bgHeader/bg-museu2.jpg"
+          },
+          {
+            "info": "Explore nossa coleção de arte brasileira, que abrange desde a época colonial até os dias atuais. Das pinturas às esculturas, essas obras de artistas renomados capturam a diversidade e a evolução da expressão artística do país.",
+            "title": "Tesouros da Arte Brasileira",
+            "img": "/bgHeader/bg-museu3.jpg"
+          },
+          {
+            "info": "Descubra a magnífica arquitetura do Museu do Ipiranga, um monumento que mescla elementos neoclássicos e góticos. Caminhe pelos corredores e salões majestosos que abrigam não apenas arte e história, mas também uma beleza arquitetônica impressionante.",
+            "title": "Arquitetura Inspiradora",
+            "img": "/bgHeader/bg-museu4.jpg"
+          },
+          {
+            "info": "Além das exposições permanentes, o Museu do Ipiranga oferece uma rica programação cultural, incluindo palestras, workshops e apresentações artísticas. Mantenha-se atualizado sobre nossos eventos e participe de atividades enriquecedoras.",
+            "title": "Programação Cultural Imperdível",
+            "img": "/bgHeader/bg-museu5.png"
+          }
+        ],
+
+  "footer": "",
+      "titleAboutMuseum": "Sobre o museu",
+        "aboutMuseum": "Bem-vindo ao Museu do Ipiranga! Localizado em São Paulo, é um ícone cultural do Brasil, contando a história do país desde a época colonial até hoje. Fundado em 1895, destaca-se pelo Monumento à Independência, simbolizando a liberdade do Brasil em 1822. Com artefatos, obras de arte e exposições, oferecemos uma jornada única pela história e identidade brasileira. Explore nossas salas, galerias e eventos para se conectar com as raízes que moldaram a nação. Junte-se a nós para apreciar e aprender sobre as conquistas e desafios que definem nossa história no Museu do Ipiranga!",
+      "titleNavigation": "Navegação Rápida",
+        "security": "Segurança e Privacidade",
+        "report": "Denuncie",
+        "contactUs": "Fale Conosco",
+        "SAC": "SAC",
+        "contribution": "Contribuição",
+        "terms": "Termos de uso",
+      "titleSocial": "Redes Sociais"
+}

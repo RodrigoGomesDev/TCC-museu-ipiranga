@@ -1,11 +1,11 @@
 import React from "react";
 
-function Home() {
+function Sponsors() {
     return (
         <div>
-            teste
+            Patrocinadores
         </div>
     )
 }
 
-export default Home;
+export default Sponsors;
