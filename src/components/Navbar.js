@@ -8,11 +8,11 @@ function Navbar() {
         setActiveRoute(location.pathname);
     }, [location.pathname]);
 
-    const [isDropdownOpen, setDropdownOpen] = useState(false);
+    // const [isDropdownOpen, setDropdownOpen] = useState(false);
 
-    const toggleDropdown = () => {
-      setDropdownOpen(!isDropdownOpen);
-    };
+    // const toggleDropdown = () => {
+    //   setDropdownOpen(!isDropdownOpen);
+    // };
 
     return (
         // <nav className="navbar">
@@ -71,50 +71,50 @@ function Navbar() {
                     </div>
                 </div>
             </nav>
-            <div id="menu" class="menu">
-                <div class="content" id="content">
-                    <div class="left-part">
-                    <div class="list-submenu">
-                        <div class="item title">
+            <div id="menu" className="menu">
+                <div className="content" id="content">
+                    <div className="left-part">
+                    <div className="list-submenu">
+                        <div className="item title">
                         Blog
                         </div>
                     </div>
-                    <div class="list-submenu">
-                        <div class="item title">
+                    <div className="list-submenu">
+                        <div className="item title">
                         Community
                         </div>
-                        <div class="item">
+                        <div className="item">
                         Discord
                         </div>
-                        <div class="item">
+                        <div className="item">
                         Stackoverflow
                         </div>
-                        <div class="item">
+                        <div className="item">
                         Slack
                         </div>
                     </div>
-                    <div class="list-submenu">
-                        <div class="item title">
+                    <div className="list-submenu">
+                        <div className="item title">
                         Solution
                         </div>
-                        <div class="item">
+                        <div className="item">
                         API
                         </div>
                     </div>
-                    <div class="list-submenu">
-                        <div class="item title">
+                    <div className="list-submenu">
+                        <div className="item title">
                         Application
                         </div>
-                        <div class="item">
+                        <div className="item">
                         Mobile app
                         </div>
-                        <div class="item">
+                        <div className="item">
                         Web app
                         </div>
                     </div>
                     </div>
-                    <div class="right-part">
-                    <div class="card">
+                    <div className="right-part">
+                    <div className="card">
                         <p>Look at my fancy use case</p>
                         <button>Click to see more </button>
                     </div>

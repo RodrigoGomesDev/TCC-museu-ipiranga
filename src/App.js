@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import './globals.css'
 import AppRoutes from './Routes';
