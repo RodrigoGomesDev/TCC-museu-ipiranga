@@ -1,9 +1,8 @@
 import React from "react";
-
+import '../styles/pages/Home.css'
 function Home() {
     return (
-        <div>
-            Home
+        <div className="background-image">
         </div>
     )
 }

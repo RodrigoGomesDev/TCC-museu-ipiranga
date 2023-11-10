@@ -48,17 +48,17 @@ function Navbar() {
                             onMouseLeave={closeDropdown}
                         >
                             <span className='title-item'>
-                                Museu ▾
+                                Museu <span>{activeDropdown === 'museu' ? '▴' : '▾'}</span>
                             </span>
                             <div className={`nav-dropdown ${activeDropdown === 'museu' ? 'open' : ''}`}>
-                                <div className={`item`}>
+                                <div className={`item-dropdown`}>
                                     <Link to="/museu/sobre-o-museu">Sobre o museu</Link>
                                 </div>
-                                <div className={`item`}>
+                                <div className={`item-dropdown`}>
                                     <Link to="/museu/equipe">Equipe</Link>
 
                                 </div>
-                                <div className={`item`}>
+                                <div className={`item-dropdown`}>
                                     <Link to="/museu/museu-digital">Museu Digital</Link>
                                 </div>
                             </div>
@@ -69,13 +69,13 @@ function Navbar() {
                             onMouseLeave={closeDropdown}
                         >
                             <span className='title-item'>
-                                Exposições ▾
+                                Exposições <span>{activeDropdown === 'exposicoes' ? '▴' : '▾'}</span>
                             </span>
                             <div className={`nav-dropdown ${activeDropdown === 'exposicoes' ? 'open' : ''}`}>
-                                <div className={`item`}>
+                                <div className={`item-dropdown`}>
                                     <Link to="/exposicoes/longa-duracao">Longa Duração</Link>
                                 </div>
-                                <div className={`item`}>
+                                <div className={`item-dropdown`}>
                                     <Link to="/exposicoes/temporariamente">Temporárias</Link>
                                 </div>
                             </div>
@@ -93,13 +93,13 @@ function Navbar() {
                             onMouseLeave={closeDropdown}
                         >
                             <span className='title-item'>
-                                Acervo ▾
+                                Acervo <span>{activeDropdown === 'acervo' ? '▴' : '▾'}</span>
                             </span>
                             <div className={`nav-dropdown ${activeDropdown === 'acervo' ? 'open' : ''}`}>
-                                <div className={`item`}>
+                                <div className={`item-dropdown`}>
                                     <Link to="/acervo/novas-colecoes">Novas Coleções</Link>
                                 </div>
-                                <div className={`item`}>
+                                <div className={`item-dropdown`}>
                                     <Link to="/acervo/biblioteca">Biblioteca</Link>
                                 </div>
                             </div>
@@ -117,13 +117,13 @@ function Navbar() {
                             onMouseLeave={closeDropdown}
                         >
                             <span className='title-item'>
-                                Apoie ▾
+                                Apoie <span>{activeDropdown === 'apoie' ? '▴' : '▾'}</span>
                             </span>
                             <div className={`nav-dropdown ${activeDropdown === 'apoie' ? 'open' : ''}`}>
-                                <div className={`item`}>
+                                <div className={`item-dropdown`}>
                                     <Link to="/apoie/como-apoiar">Como apoiar</Link>
                                 </div>
-                                <div className={`item`}>
+                                <div className={`item-dropdown`}>
                                     <Link to="/apoie/patrocinadores">Patrocinadores</Link>
                                 </div>
                             </div>

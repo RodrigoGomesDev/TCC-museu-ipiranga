@@ -5,6 +5,7 @@ nav {
   position: relative;
   z-index: 99;
   background-color: #F2F4F6;
+  // background: transparent;
   .container {
     max-width: 1460px;
     width: 1460px;
@@ -14,9 +15,7 @@ nav {
     align-items: center;
   }
   .active {
-    background-color: #007bff;
-    border-radius: 5px; /* Borda arredondada na rota ativa */
-    padding: 5px 10px; /* Espaçamento interno na rota ativa */
+    border: 1px solid red;
   }
   .nav-mobile {
     display: none;
@@ -33,14 +32,16 @@ nav {
 .list {
     display: flex;
     flex-direction: row;
+    font-size: 16px;
+
   .item {
     color: #454545;
     display: flex;
     padding: 16px 24px;
     cursor: pointer;
-    font-size: 16px;
     font-family: arial;
-    position: relative; 
+    position: relative;
+
     .title-item {
       display: flex; 
       position:relative;
@@ -58,6 +59,14 @@ nav {
           left: 0;
           bottom: -8px;
       }
+
+      // a {
+      //   transition: color .2s;
+      // }
+
+      // a:hover {
+      //   color: #f5cd64;
+      // }
       
     }
     .arrow {
@@ -82,24 +91,37 @@ nav {
     opacity: 0;
     transition: max-height 0.3s, opacity 0.3s;
     position: absolute;
+    padding: 10px 10px 0px 10px;
     top: 100%;
     left: 0;
     background-color: #fff;
     z-index: 1;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
     &.open {
-        max-height: 200px; /* Defina a altura máxima que desejar */
+        max-height: 200px;
         opacity: 1;
     }
 
-    .item {
+    .item-dropdown {
         padding: 10px;
-        opacity: 0;
-        transform: translateY(-10px); /* Inicialmente, move os itens para cima */
-        transition: opacity 0.3s, transform 0.3s; /* Adicione transições para os itens */
+        border-bottom: 1px solid rgba(67,41,163,.2);
+        transform: translateY(-10px); 
+        width: 200px;
+        transition: opacity 0.3s, transform 0.3s; 
 
         &:last-child {
             border-bottom: none;
+            padding-bottom: 0px;
+        }
+
+        a {
+          transition: color .2s, transform .3s ease-in-out;
+          display: inline-block;
+        }
+
+        a:hover {
+          color: #f5cd64;
+          transform: translate(10px, 0px);
         }
     }
 
